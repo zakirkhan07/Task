@@ -52,8 +52,10 @@ const InputScreen = ({navigation}) => {
       />
       <Button
         title="Next"
-        onPress={() =>
-          navigation.navigate('FindDistance', {origin, destination})
+        onPress={() =>{
+          // navigation.navigate('FindDistance', {origin, destination})
+
+           console.log(origin)}
         }
         disabled={nextButtonDisabled}
       />
